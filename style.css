@@ -1,0 +1,308 @@
+@import url('reset.css');
+
+.container-main{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 56px;
+    /* background-color: red; */
+    padding: 10px;
+    position: relative;
+    gap: 10px;
+    /* align-content: center; */
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.item-head{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.search{
+    margin-left: 356px;
+    margin-right: 356px;
+}
+
+.bell {
+    position: absolute;
+    left: 97%;
+}
+
+.video-icon {
+    position: absolute;
+    left: 94%;
+}
+
+.avatar{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    background-image: url("zhuo\ fan.jpg");
+    border-radius: 50%;
+    left: 100%;
+}
+
+.container-video{
+    display: flex;
+    width: 952px;
+    height: 950px;
+    /* background-color: rgb(150, 182, 150); */
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    top: 10px;
+    left: 20px;
+    flex-flow: row wrap;
+    align-content: flex-start;
+
+}
+
+.video{
+    margin-top: 2px;
+    width: 950px;
+    height: 537px;
+    background-image: url("khabib.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.titulo{
+    width: 950px;
+    height: 30px;
+    margin-top: 20px;
+    font-size: larger;
+
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    width: 950px;
+    height: 50px;
+    margin-top: 30px;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.item-action{
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.likes1 {
+    position: absolute;
+    left: 34%;
+}
+
+.likes2 {
+    position: absolute;
+    left: 40%;
+}
+
+.deslikes1 {
+    position: absolute;
+    left: 43%;
+}
+
+.deslikes2 {
+    position: absolute;
+    left: 50%;
+}
+
+.Compartilhar1 {
+    position: absolute;
+    left: 58%;
+}
+
+.Compartilhar2 {
+    position: absolute;
+    left: 65%;
+}
+
+.download1 {
+    position: absolute;
+    left: 73.5%;
+}
+
+.download2 {
+    position: absolute;
+    left: 80%;
+}
+
+.icon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-image: url(central\ cee.jpg);
+    border-radius: 50%;
+}
+
+#central-channel{
+    margin-left: 12px;
+}
+
+.text-action{
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: left;
+    width: 125px;
+    white-space: nowrap;
+    left: 55px;
+    bottom: 270px;
+}
+
+.subs-button{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    margin-left: 33px;
+    background-image: url("Button.png");
+    background-size: cover;
+    background-position: center;
+    left: 19%;
+}
+
+#subscribe{
+    margin-top: 12px;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+#like-button{
+    margin-left: 40px;
+}
+
+#like-count{
+    margin-left: 10px;
+}
+.descricao{
+    /* border: 1px solid black; */
+    width: 700px;
+    height: 150px;
+    margin-top: 25px;
+}
+
+.container-lista-videos {
+    display:flex;
+    width: 380px;
+    height: 1024px;
+    /* background-color: rgba(0, 0, 255, 0.201); */
+    margin: 20px;
+    padding: 20px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    flex-flow: row wrap;
+
+
+}
+
+.item-video{
+    border: 2px solid rgb(255, 255, 255);
+    height: 90px;
+    width: 160px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.thumb1 {
+    position: absolute;
+    height: 90px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.thumb2 {
+    position: absolute;
+    height: 90px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.thumb3 {
+    position: absolute;
+    height: 90px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.thumb4 {
+    position: absolute;
+    height: 90px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.thumb5 {
+    position: absolute;
+    height: 90px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.thumb6 {
+    position: absolute;
+    height: 90px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.thumb7 {
+    position: absolute;
+    height: 90px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.thumb8 {
+    position: absolute;
+    height: 90px;
+    width: 160px;
+    border-radius: 5px;
+}
+
+.item-texto{
+    border: 2px solid rgb(255, 255, 255);
+    height: 90px;
+    width: 160px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#titulo-video-lista{
+    font-size: 13px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+#descricao-video-lista{
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+#texto-descritivo{
+    text-align: left;
+}
